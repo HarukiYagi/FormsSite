@@ -250,6 +250,43 @@ html.other_forms h1{
   .table_area{
     width: 98%;
   }
+  table{
+    font-size: 24px;
+  }
+  html.top_page div.btns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+  }
+  
+  h1{
+    font-size: 48px;
+  }
+ 
+  header div{
+    height: 84px;
+  }
+  header>div>h1{
+    font-size: 32px;
+  }
+  p{
+    font-size: 24px;
+  }
+  a{
+    font-size: 24px;
+  }
+  header a{
+    font-size: 24px;
+  }
+  main{
+    margin-top: 92px;
+  }
+  ul{
+    font-size: 24px;
+  }
+
+  
 }
 
 
