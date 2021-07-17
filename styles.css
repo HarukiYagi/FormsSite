@@ -110,6 +110,33 @@ td > a:active{
   border-bottom: none;
   border-top: 3px solid gray;
 }
+a.example{
+  text-align: initial;
+  display: initial;
+  border: initial;
+  color: #551a8b;
+  padding: initial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: initial;
+  background-color: initial;  
+  transition: initial;
+  border-radius: initial;
+  opacity: initial;
+  border-bottom: 1px solid #551a8b;
+}
+a.example:hover{
+  opacity: initial;
+  transform: initial;  
+  color: red;
+  border-bottom: 1px solid red;
+}
+a.example:active{
+  transition: initial;
+  position: initial;
+  top: initial;
+  border-bottom: 1px solid red;
+  border-top: initial;
+}
 
 
 /* TOPページ */
