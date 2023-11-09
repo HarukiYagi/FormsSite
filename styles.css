@@ -22,7 +22,7 @@ header a{
   background-color: rgb(212, 212, 212);
   color: rgb(126, 131, 131);
   padding: 3px;
-  border-radius: 10%;
+  border-radius: 5px;
   border: rgb(126, 131, 131) 1px solid;
   opacity: 0.7;
   transition: 0.3s; 
@@ -38,6 +38,8 @@ header a:active{
   position: relative;
   top: 5px;
 }
+
+
 main{
   /* margin-top: 80px; */
   position: relative;
@@ -91,7 +93,7 @@ td > a{
   text-decoration: none;
   background-color: #0000c9;  
   transition: 0.3s;
-  border-radius: 20%;
+  border-radius: 5px;
   opacity: 0.5;
   border-bottom: gray 3px solid;
 }
@@ -148,7 +150,7 @@ html.top_page div.center{
   background-color: #fcb301;
   margin-top: 150px;
   padding-top: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   width: auto;
   text-align: center;
 }
@@ -156,6 +158,9 @@ html.top_page h1{
   color:#F5F5F5;
   font-weight: normal;
   letter-spacing: 5px;
+}
+#please_chose{
+  margin-bottom: 0px;
 }
 html.top_page div.btns{
   display: flex;
@@ -168,7 +173,7 @@ html.top_page a{
   width: 100%;
   margin: 13px 0 13px 0;
   padding: 5px 0 5px 0;
-  border-radius: 5%;
+  border-radius: 3px;
   text-decoration: none;
   box-shadow: 5px 5px 8px gray; 
 
@@ -202,6 +207,30 @@ div.btns :nth-child(3){
   background-color: #adff90;
   color: #009700;
 }
+
+#new {
+  color: red;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  animation: blinking .5s ease-in-out infinite alternate;
+}
+@keyframes blinking {
+	0% {
+    opacity: 0;
+  }
+	100% {
+    opacity: 1;
+  }
+}
+
+div.btns :nth-child(5){
+  margin-top: 0px;
+  border: solid rgb(255, 123, 0) 4px;
+  background-color: wheat;
+  color: black;
+}
+
 
 /*工事500万未満*/
 html.const_under500 header>div{
@@ -290,6 +319,10 @@ html.other_forms h1{
     width: 400px;
     margin: auto;
   }
+  html.top_page a{
+    margin-bottom: 39px;
+  }
+  
   
   h1{
     font-size: 48px;
