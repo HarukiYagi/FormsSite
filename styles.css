@@ -116,15 +116,16 @@ a.example{
   text-align: initial;
   display: initial;
   border: initial;
-  color: #551a8b;
+  color: blue;
   padding: initial;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
   text-decoration: initial;
   background-color: initial;  
   transition: initial;
   border-radius: initial;
   opacity: initial;
-  border-bottom: 1px solid #551a8b;
+  border-bottom: 1px solid blue;
 }
 a.example:hover{
   opacity: initial;
